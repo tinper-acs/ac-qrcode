@@ -20,22 +20,22 @@ React二维码组件，使用底层核心算法[qr.js](https://github.com/defunc
 
 1. 通过`npm`安装
     ```bash
-    npm install ac-qrcode --save
+    npm install ac-qr-code --save
     ```
 2. 国内镜像通过`cnpm`安装
     ```bash
-    cnpm install ac-qrcode --save
+    cnpm install ac-qr-code --save
     ```
 3. 用友内网通过`ynpm`安装
     ```bash
-    ynpm install ac-qrcode --save
+    ynpm install ac-qr-code --save
     ```
 
 
 ### 3. 使用
 
 ```js
-import AcQrcode from "ac-qrcode";
+import AcQrcode from "ac-qr-code";
 
 render(){
     return (<div>
