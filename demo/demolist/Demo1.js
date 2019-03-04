@@ -1,7 +1,7 @@
 /**
  *
  * @title 二维码组件
- * @description 二维码组件
+ * @description 可以生成符合行业规格的二维码，支持不同格式
  *
  */
 

@@ -9,6 +9,8 @@
 
 在线演示：https://tinper-acs.github.io/ac-qrcode/
 
+## 代码演示
+
 ### 1. 简介
 
 React二维码组件，使用底层核心算法[qr.js](https://github.com/defunctzombie/qr.js)进行组件封装，提供标准的功能展示，具有Level、前景、背景颜色设置、大小设置、边框间距设置、SVG和Canvas格式等
@@ -35,7 +37,17 @@ React二维码组件，使用底层核心算法[qr.js](https://github.com/defunc
 import AcQrcode from "ac-qrcode";
 
 render(){
-    return (<AcQcode value="9787123" />)
+    return (<div>
+                <AcQrcode
+                    value={"http://tinper.org/"}
+                    size={128}
+                    bgColor={"#ffffff"}
+                    fgColor={"#000000"}
+                    level={"L"}
+                    includeMargin={false}
+                    renderAs={"svg"}
+                />
+    </div>)
 }
 ```
 
@@ -53,13 +65,7 @@ includeMargin | boolean      | false
 
 
 
-### 5. 支持标准
+### 5. CHANGLOG
 
 
-
-
-### 6. CHANGLOG
-
-* [1.0.0-完善文档发布正式版](https://github.com/tinper-acs/ac-barcode/releases/tag/1.0.0)
-* [0.0.2-修改脚手架工程](https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.2)
-* [0.0.1-初次版本实现、增加示例](https://github.com/tinper-acs/ac-barcode/releases/tag/0.0.1)
+* [0.0.1-初次版本实现、增加示例](https://github.com/tinper-acs/ac-qrcode/releases/tag/0.0.1)
