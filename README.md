@@ -2,7 +2,8 @@
 
 二维码组件
 
-![image](https://user-images.githubusercontent.com/3817644/53559495-293c0800-3b85-11e9-9094-f6455cbe9ec5.png)
+![image](https://user-images.githubusercontent.com/3817644/53713600-5f7bcf00-3e86-11e9-8dfd-399b442029c6.png)
+
 
 [![npm version](https://img.shields.io/npm/v/ac-qrcode.svg)](https://www.npmjs.com/package/ac-qrcode)
 [![NPM downloads](http://img.shields.io/npm/dt/ac-qrcode.svg?style=flat)](https://npmjs.org/package/ac-qrcode)
