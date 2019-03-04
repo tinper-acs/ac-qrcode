@@ -91,7 +91,7 @@ class Demo2 extends Component {
                             defaultValue="#000000"
                             onChange={(v) => this.handlerChange('fgColor', v)}
                         >
-                            <Option value="#000000">White</Option>
+                            <Option value="#000000">Black</Option>
                             <Option value="#fa8c16">Yellow</Option>
                             <Option value="#f5222d">Red</Option>
                             <Option value="#52c41a">Green</Option>
@@ -99,7 +99,6 @@ class Demo2 extends Component {
                             <Option value="#13c2c2">Cyan</Option>
                             <Option value="#eb2f96">Magenta</Option>
                             <Option value="#fa541c">Volcano</Option>
-
                         </Select>
                     </Col>
                 </Row>
